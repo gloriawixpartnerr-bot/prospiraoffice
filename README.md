@@ -1,39 +1,41 @@
-# Elevora / Prospira Agency
+# Prospira Premium Digital Product Agency
 
-Premium Digital Product Agency website built with Next.js 14, React 18, TypeScript, Tailwind CSS, and Framer Motion.
+Recreation of the Prospira Agency website built with Next.js, React, TypeScript, Tailwind CSS, and Framer Motion.
 
 ## Features
-- **Hero Showcase**: 3D floating interactive product card, ambient glow, magnetic CTA buttons.
-- **Dynamic Header**: Glassmorphic scroll-reactive navbar with mobile drawer navigation.
-- **Animated Statistics**: Counter animations rolling up to project metrics.
-- **Infinite Brand Strip**: Continuous seamless marquee with company logos.
-- **Service Cards**: 6 interactive expertise cards with dark flip hover transitions and radial glows.
-- **Project Estimator**: Interactive calculator on `/services` calculating custom project quotes.
-- **Portfolio Showcase**: Category filtering across Web, Game Dev, SaaS, and Systems case studies.
-- **Interactive Roadmap**: 5-step process timeline on `/process`.
-- **System Evolution**: Philosophy breakdown and 4 core architectural pillars on `/about`.
-- **Contact & AI Advisor**: Inquiry form with validation and instant AI Project Advisor recommendation tool on `/contact`.
+
+- **Hero Showcase**: 3D perspective floating showcase card with ambient glow and gradient typography.
+- **Statistics Section**: Animated numeric counters for project delivery, experience, and technologies.
+- **Brand Marquee**: Double-buffered continuous marquee strip featuring leading technology brands.
+- **Our Expertise**: Service cards with interactive dark flips, radial glow, and technology tags.
+- **Interactive Pages**:
+  - `/services` - Interactive Project Estimate Calculator.
+  - `/portfolio` - Case studies with dynamic category filtering.
+  - `/process` - 5-stage alternating roadmap timeline.
+  - `/about` - Core system pillars and infrastructure upgrade CTA.
+  - `/contact` - Inquiry form and AI Project Advisor recommendation tool.
+- **Micro-Interactions**: Custom magnetic cursor, vertical scroll progress bar, and noise grain overlay texture.
+
+## Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
 
 ## Getting Started
 
-First, install dependencies:
-
 ```bash
+# Install dependencies
 npm install
-```
 
-Then, run the development server:
-
-```bash
+# Run development server
 npm run dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Build for Production
-
-```bash
+# Build for production
 npm run build
-npm start
-```
 
+# Start production server
+npm run start
+```
